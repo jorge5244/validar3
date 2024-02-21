@@ -1,0 +1,125 @@
+.navbar{
+    border: 1px solid rgb(193, 187, 187);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carousel-inner img {
+    max-width: 50vw;
+    max-height: 50vh;
+    text-align: center;
+    border-radius: 20px;
+    border: black 1px solid;
+
+}
+.carousel-inner{
+height: 50vh;
+width: 50vw;
+margin-left: 25vw;
+margin-top: 10vh;
+border-radius: 20px;
+
+}
+
+section h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.receta{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    min-width: 50%;
+    min-height: 50%;
+    gap: 20px;
+}
+.receta img{
+    width: 18rem;
+    height: 200px;
+}
+.card{
+    width: 18rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: black;
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: black 1px solid;
+}
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+    margin-top: -5rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.contacto .seccion-titulo{
+    font-size: large;
+    color: white;
+}
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.contacto button i {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+    color: black;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    padding-bottom: 30px;
+}
